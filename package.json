@@ -1,4 +1,4 @@
-{
+{"homepage": "https://abhaykashyap0.github.io/avk-weather",
   "name": "weather",
   "version": "1.0.0",
   "description": "creating weather site",
@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node nod.js"
+   
+    
+
   },
   "author": "Abhay kashyap",
   "license": "ISC",
