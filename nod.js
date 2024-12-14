@@ -5,8 +5,8 @@ const  prompt=require('prompt-sync')();
 const  query=require("querystring");
 const fs =require("fs");
 const path=require("path");
-let htm=fs.readFileSync('weath.html',"utf8");
-let ind=fs.readFileSync('index.html',"utf8");
+let htm=fs.readFileSync('index.html',"utf8");
+let ind=fs.readFileSync('we.html',"utf8");
 const port=process.env.PORT || 3000;
 // let  cod=document.getElementById("inn");
 
