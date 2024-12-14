@@ -1,0 +1,108 @@
+body{
+    text-align: center;
+    background-image: url('sun.jpg');
+    background-size: cover;
+}
+h1{
+    font-family: Brush Script MT;
+    font-size: 295%;
+    
+}
+#hea{
+    margin: 0;
+    margin-top: 0.1px;
+    padding: 0;
+}
+#box:hover{
+    opacity: 75%;
+}
+#box
+{
+    height:70vh;
+    width: 30%;
+margin-left: 35%;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 25%;
+margin-top: 0;
+opacity: 85%;
+
+box-shadow:5px 10px rgb(76, 18, 18);
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+#inn{
+    margin-left: 25%;
+    height: 50%;
+    width: 50%;
+    /* background-image: url(sun.jpeg);
+    background-size: cover; */
+    /* border: 5px solid red; */
+    animation: innAni  0.7s linear 0.7s infinite normal;
+}
+@keyframes innAni{
+    /* 0%{
+    Transform:rotateY(360deg);} */
+    /* 50%{Transform:rotateY(360deg);} */
+    100%{Transform:rotateY(360deg);}
+    /* 0%{border: 5px solid red;
+    border-radius: 50%;}
+    50%{border: 5px solid rgb(238, 56, 129);border-radius: 50%;}
+    100%{border: 5px solid rgb(255, 0, 166);border-radius: 50%;} */
+}
+#ima{margin-bottom: 2px;
+    border-radius: 25%;
+    height: 40%;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow:1px 5px rgb(76, 18, 18);
+    /* background-image: url(sun.jpeg);
+    background-size:cover; set abhay kashyap from nation lllllllllllllllllllllllllllllllllllllllllllllll*/
+    padding: 0;
+    font-size: 5em;
+    overflow: auto;
+    /* &#9748;rain */
+    /* >&#9925sun */
+    border-bottom: 5px solid rgb(165, 69, 124);
+}
+#loc
+{margin-bottom: 2px;
+    box-shadow:1px 5px rgb(76, 18, 18);
+    border-radius: 25%;
+    height: 15%;
+    width: 60%;
+    margin-left: 20%;
+    
+}
+#date{
+    margin-bottom: 2px;
+    box-shadow:1px 5px rgb(76, 18, 18);
+    border-radius: 25%;
+    height: 15%;
+    width: 60%;
+    font-size: 1.5em;
+    font-style:italic;
+   font-weight: 600;
+    margin-left: 20%;
+}#temp{
+    margin-bottom: 2px;
+    box-shadow:1px 5px rgb(76, 18, 18);
+    border-radius: 25%;
+    height: 15%;
+    width: 60%;
+   
+    margin-left: 20%;
+}
+#maxtemp
+{ margin-left: 20%;
+    margin-bottom: 2px;
+    box-shadow:1px 5px rgb(76, 18, 18);
+    border-radius: 25%;
+    height: 15%;
+    width: 60%;
+   
+
+}

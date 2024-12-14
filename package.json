@@ -1,0 +1,16 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "creating weather site",
+  "main": "htm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhay kashyap",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^25.0.1",
+    "prompt-sync": "^4.2.0",
+    "requests": "^0.3.0"
+  }
+}
