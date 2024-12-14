@@ -7,6 +7,7 @@ const fs =require("fs");
 const path=require("path");
 let htm=fs.readFileSync('weath.html',"utf8");
 let ind=fs.readFileSync('index.html',"utf8");
+const port=process.env.PORT || 3000;
 // let  cod=document.getElementById("inn");
 
 // let {JSDOM}=jsdom;
@@ -92,7 +93,7 @@ const server=http.createServer((req, res)=>{
    }
 });
 // }});
-server.listen(3000,'127.0.0.1',()=>{
+server.listen(port,'127.0.0.1',()=>{
     console.log("started at http://localhost:3000/abhay")
 });
 
